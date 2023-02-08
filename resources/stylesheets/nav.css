@@ -1,0 +1,38 @@
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1em 10% 1em 10%;
+   background-color: black;
+
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+}
+
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 0.25em 0.5em;
+}
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   font-variant: small-caps;
+}
+nav ul li a.currentPage {
+   color: #2B65EC;
+}
+nav ul li a.currentPage:hover {
+   color: #2B65EC;
+}
+nav ul li a:hover {
+   color: #7fcdff;
+   transition: .35s;
+}
+
+.nameLogo {
+   color: white;
+   font-family: 'Great Vibes', cursive;
+   font-size: 2em;
+}

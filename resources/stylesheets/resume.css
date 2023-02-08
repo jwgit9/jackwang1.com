@@ -1,0 +1,86 @@
+footer {
+   position: relative;
+   clear: both;
+}
+main {
+   width: 100%;
+   max-width: 900px;
+   padding: 0em 1em;
+   margin: 1.5em auto 0em;
+   overflow: auto;
+
+   font-family: Times New Roman, serif; 
+   font-size: 1em;
+   color: black;
+}
+
+#nameHeader {
+   margin: 0em;
+   text-align: center;
+   font-size: 2em;
+   font-weight: bold;
+}
+#contactInfo {
+   margin: 0em;
+   padding: 0.1em 0em;
+   text-align: center;
+}
+#contactInfo li {
+   margin: 0em 0.25em;
+   display: inline;
+   list-style: none;
+}
+
+.category {
+   width: 100%;
+   margin: 0.75em 0em 0.5em 0em;
+   clear: both;
+   float: left;
+   border-bottom: 0.1em solid #333;
+   text-align: left;
+   font-variant: small-caps;
+   font-size: 1.2em;
+}
+.subcat1 {
+   margin: 0em 1em;
+   clear: both;
+   float: left;
+   font-weight: bold;
+}
+.subcat2 {
+   margin: 0em 1em;
+   clear: both;
+   float: left;
+   text-align: left;
+   font-style: italic;
+}
+.detailRight1 {
+   margin: 0em 1em;
+   clear: right;
+   float: right;
+}
+.detailRight2 {
+   margin: 0em 1em;
+   clear: right;
+   float: right; 
+   font-style: italic;
+}
+.detailList {
+   width: 70%;
+   clear: both;
+   margin-bottom: 0.5em;
+}
+.detailList li {
+   margin-left: 0.5em;
+}
+.skillHeader {
+   margin: 0em 0.3em 0em 1em;
+   float: left;
+   clear: both;
+   font-weight: bold;
+}
+.skillDetail {
+   margin: 0em;
+   float: left;
+   overflow: auto;
+}
